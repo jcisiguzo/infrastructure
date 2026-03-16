@@ -41,6 +41,6 @@ resource "aws_lb_listener" "alb_lb_listner" {
 
   default_action {
     type             = "forward"
-    target_group_arn = aws_lb_target_group.alb_tg.arn #correction
+    target_group_arn = aws_lb_target_group.alb_tg.arn
   }
 }

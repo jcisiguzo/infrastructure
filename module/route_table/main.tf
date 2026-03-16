@@ -17,7 +17,7 @@ resource "aws_route_table_association" "alb_rta" {
   subnet_id      = var.subnet_1_id
   route_table_id = aws_route_table.alb_rt.id
 }
-resource "aws_route_table_association" "alb_rta2" { #correction
+resource "aws_route_table_association" "alb_rta2" {
   subnet_id      = var.subnet_2_id
   route_table_id = aws_route_table.alb_rt.id
 }

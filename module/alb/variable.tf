@@ -7,7 +7,7 @@ variable "subnet_2_id" {}
 variable "sg_alb_id" {}
 variable "instance_ids" {
   type = map(string)
-} #correction
+}
 
 # tags
 variable "tg_name" {
